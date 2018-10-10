@@ -22,7 +22,11 @@ $app->configureMonologUsing(function (\Monolog\Logger $logger) {
     return $logger;
 });
 
+
+
+
 // Paste these line of code in your project .env file
+
 APP_MAX_LOG_FILE=365;
 LOG_DIRECTORY="/../storage/logs"; // select your project directory for storing logs
 LOG_FILE_NAME="testing_log"; // file name change it according to need
